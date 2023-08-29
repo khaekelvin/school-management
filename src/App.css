@@ -132,22 +132,64 @@ p {
 }
 
 .box {
-  width: 500px;
+  width: 430px;
   height: 600px;
-
   border-radius: 20px;
   background-color: var(--button-blue);
   text-align: center;
   color: white;
+  line-height: 30px;
+  margin: 100px;
 }
 
 .grid-both {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  gap: 20px;
-  padding: 2rem 8rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .grid-both p {
   margin: 40px;
+}
+
+.pfp {
+  width: 220px;
+  height: 200px;
+}
+
+/* About */
+
+.about-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.flow {
+  font-size: 50px;
+}
+
+.what {
+  padding: 10rem 6rem;
+}
+
+.side-box {
+  width: 600px;
+  height: 150px;
+  margin: 70px 0;
+  border-radius: 20px;
+  background-color: var(--ash-text);
+}
+
+.in {
+  width: 600px;
+  height: 150px;
+  border-radius: 20px;
+  background-color: var(--ash-text);
+}
+
+/*CTA*/
+.last-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 100px;
 }

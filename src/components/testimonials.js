@@ -1,10 +1,12 @@
 import React from "react";
+import pfp from "../images/new2pfp.png";
+import pfpp from "../images/new1pfp.png";
 
 function Testimonials() {
   return (
     <div className="grid-both">
       <section className="box">
-        <img></img>
+        <img className="pfp" src={pfp} alt=""></img>
         <h3>
           <i>- Jane Smith, School Administrator</i>
         </h3>
@@ -18,7 +20,7 @@ function Testimonials() {
       </section>
 
       <section className="box">
-        <img></img>
+        <img className="pfp" src={pfpp} alt=""></img>
         <h3>
           <i>- Michael Stone, School Teacher</i>
         </h3>

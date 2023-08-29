@@ -3,6 +3,8 @@ import Nav from "./components/nav";
 import Hero from "./components/hero";
 import Features from "./components/features";
 import Testimonials from "./components/testimonials";
+import About from "./components/About";
+import CallToAction from "./components/callToAction";
 
 function App() {
   return (
@@ -11,6 +13,8 @@ function App() {
       <Hero />
       <Features />
       <Testimonials />
+      <About />
+      <CallToAction />
     </div>
   );
 }
