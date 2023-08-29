@@ -1,13 +1,16 @@
 import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faCoffee } from "@fortawesome/free-solid-svg-icons";
+import { faCoffee, faPaperPlane } from "@fortawesome/free-solid-svg-icons";
 
 function Nav() {
   return (
     <nav>
       <h1 className="logo">
-        <FontAwesomeIcon icon={faCoffee} />
-        School<span>FLow</span>
+        School
+        <span>
+          FLow
+          <FontAwesomeIcon className="plane" icon={faPaperPlane} />
+        </span>
       </h1>
       <ul>
         <li>Home</li>
