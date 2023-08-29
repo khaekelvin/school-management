@@ -18,9 +18,9 @@ function Hero() {
           </p>
           <button className="btn-blue">Sign Up</button>
         </div>
-        <img className="image-1" src={one}></img>
+        <img className="image-1" src={one} alt=""></img>
       </main>
-      <img className="social-proof" src={proof}></img>
+      <img className="social-proof" src={proof} alt=""></img>
     </body>
   );
 }
