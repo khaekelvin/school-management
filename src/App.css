@@ -165,26 +165,32 @@ p {
 }
 
 .flow {
-  font-size: 50px;
+  font-size: 90px;
 }
-
+h3 {
+  margin-bottom: 5px;
+}
 .what {
   padding: 10rem 6rem;
 }
 
 .side-box {
   width: 600px;
-  height: 150px;
+  height: 190px;
   margin: 70px 0;
   border-radius: 20px;
-  background-color: var(--ash-text);
+  padding: 1rem;
+  background-color: var(--button-orange);
+  color: white;
 }
 
 .in {
   width: 600px;
-  height: 150px;
+  height: 190px;
+  padding: 1rem;
   border-radius: 20px;
-  background-color: var(--ash-text);
+  background-color: var(--button-orange);
+  color: white;
 }
 
 /*CTA*/
@@ -192,4 +198,33 @@ p {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 100px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  max-width: 30rem;
+  padding: 10rem 0;
+}
+
+input {
+  padding: 15px 8px;
+  margin: 20px 0;
+}
+.sub {
+  background-color: var(--button-blue);
+}
+
+/* Footer */
+
+footer {
+  background-color: var(--button-orange);
+  width: 100%;
+  height: 250px;
+  position: absolute;
+  left: 0;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
