@@ -7,7 +7,10 @@ function callToAction() {
       <img className="" src={last} alt=""></img>
       <form>
         <h1>Subscribe to SchoolFlow</h1>
-        <p>fwa</p>
+        <p>
+          By subscribing to SchoolFlow, you'll receive regular email updates
+          about new features, important announcements, and educational insights.
+        </p>
         <input placeholder="Enter your Email" />
         <button className="sub">Subscribe</button>
       </form>

@@ -20,7 +20,7 @@ function Hero() {
         </div>
         <img className="image-1" src={one} alt=""></img>
       </main>
-      <img className="social-proof" src={proof} alt=""></img>
+      {/* <img className="social-proof" src={proof} alt=""></img> */}
     </body>
   );
 }

@@ -2,19 +2,19 @@ import React from "react";
 
 function Footer() {
   return (
-    <footer className="col">
-      <div>
+    <footer>
+      <div className="col">
         <h1>
           School<span>Flow</span>
         </h1>
-        <ul>
+        <ul className="cen">
           <li>Home</li>
           <li>About</li>
           <li>Features</li>
           <li>Contact</li>
         </ul>
+        <p>© SchoolFlow Copyright 2023</p>
       </div>
-      <p>© SchoolFlow Copyright 2023</p>
     </footer>
   );
 }

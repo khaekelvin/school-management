@@ -11,7 +11,9 @@ function About() {
     <div className="about-grid">
       <h1 className="what">
         What is <br />
-        <span className="flow">SchoolFlow?</span>
+        <span className="flow">
+          School<span className="ora">Flow?</span>
+        </span>
       </h1>
       <div>
         <section className="in">
@@ -29,7 +31,7 @@ function About() {
 
         <section className="side-box">
           <h3>
-            Comprehensive Communication{" "}
+            Effortless Administrative Tasks{" "}
             <FontAwesomeIcon className="plane" icon={faHandshake} />
           </h3>
           <p className="about-text">
