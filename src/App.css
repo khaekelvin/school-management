@@ -1,38 +1,58 @@
-.App {
-  text-align: center;
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+:root {
+  --button-orange: #fa8314;
+  --button-orange-hover: #fa9414;
+  --button-blue: #2818d0;
+  --button-blue-hover: #5819d1;
+  --hammer-text: "Hammersmith One", sans-serif;
+  --monserrat-text: "Montserrat", sans-serif;
+  --raleway-text: "Raleway", sans-serif;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+span {
+  color: var(--button-blue);
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.logo {
+  font-family: var(--hammer-text);
+  color: var(--button-orange);
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+nav {
   display: flex;
-  flex-direction: column;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  justify-content: space-between;
+  max-width: 100%;
+  padding: 2rem 9rem;
+  font-family: var(--raleway-text);
+}
+
+ul {
+  display: flex;
+}
+
+li {
+  list-style: none;
+  padding: 0 30px;
+}
+
+li:hover {
+  font-weight: bold;
+}
+
+button {
+  padding: 16px 37px;
+  background-color: var(--button-orange);
+  border: none;
   color: white;
+  border-radius: 10px;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+button:hover {
+  background-color: var(--button-orange-hover);
+  font-weight: bold;
 }
