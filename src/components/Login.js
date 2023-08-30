@@ -1,5 +1,5 @@
 import React from "react";
-import back from "./imagess/3rd no back.png";
+import back from "../images/3rd no back.png";
 
 function Login() {
   return (

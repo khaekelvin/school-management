@@ -19,11 +19,12 @@ function Nav() {
         <li>Features</li>
         <li>Contact</li>
       </ul>
-      {/* <link to="/">
-        <button>Log In</button>
-      </link> */}
 
-      <button>Log In</button>
+      <Link style={{ textDecoration: "none", color: "white" }} to="/login">
+        <button>
+          <p>Login</p>
+        </button>
+      </Link>
     </nav>
   );
 }
