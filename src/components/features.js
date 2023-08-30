@@ -10,7 +10,7 @@ function Features() {
       <section className="grid-div">
         <article>
           <h1 className="first-ti">Student Information Management</h1>
-          <p>
+          <p className="fea">
             The Student Information Management feature of our school management
             system ensures that all student-related data is centralized,
             organized, and easily accessible to authorized users.
@@ -28,7 +28,7 @@ function Features() {
         <img className="image-2" src={tableguy} alt=""></img>
         <article>
           <h1 className="first-ti">Grade and Progress Tracking</h1>
-          <p>
+          <p className="fea">
             The Grade and Progress Tracking feature in your school management
             system empowers educators and administrators to manage grading,
             track student progress, and provide valuable insights into academic
