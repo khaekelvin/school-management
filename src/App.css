@@ -67,10 +67,10 @@ body {
   margin: 0 auto;
   font-size: 1.1rem;
 }
+
 main {
-  /* display: grid;
-  grid-template-columns: repeat(2, 1fr); */
   display: flex;
+  gap: 30px;
   flex-wrap: wrap;
 }
 
@@ -345,5 +345,75 @@ label {
 @media only screen and (max-width: 768px) {
   .back {
     display: none;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  .logo {
+    font-size: 20px;
+  }
+  .hero-title {
+    font-size: 40px;
+  }
+  .hero-text {
+    font-size: 15px;
+  }
+  img {
+    width: 400px;
+  }
+  .first-ti {
+    font-size: 1.5rem;
+  }
+  .fea {
+    font-size: 1rem;
+  }
+  .about-grid {
+    justify-content: center;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .logo {
+    font-size: 16px;
+  }
+  .hero-title {
+    font-size: 30px;
+  }
+  .hero-text {
+    font-size: 13px;
+  }
+  img {
+    width: 260px;
+    height: 350px;
+  }
+  .first-ti {
+    font-size: 1.3rem;
+  }
+  .fea {
+    font-size: 0.8rem;
+  }
+  .about-grid {
+    justify-content: center;
+  }
+  .call {
+    font-size: 1.4rem;
+  }
+  .first-ti {
+    margin-bottom: 10px;
+  }
+  .imgg {
+    margin-top: 80px;
+  }
+  .feature-title {
+    font-size: 2rem;
+    margin: 10px 0px;
+  }
+  .to {
+    font-size: 1rem;
+    width: 45ch;
+  }
+  .call-img {
+    display: flex;
+    align-self: center;
   }
 }

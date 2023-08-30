@@ -21,11 +21,11 @@ function Features() {
             communication.
           </p>
         </article>
-        <img className="image-1" src={noback} alt=""></img>
+        <img className="image-1 imgg" src={noback} alt=""></img>
       </section>
 
       <section className="grid-div">
-        <img className="image-2" src={tableguy} alt=""></img>
+        <img className="image-2 imgg" src={tableguy} alt=""></img>
         <article>
           <h1 className="first-ti">Grade and Progress Tracking</h1>
           <p className="fea">
