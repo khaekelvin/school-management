@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faPaperPlane } from "@fortawesome/free-solid-svg-icons";
 
@@ -18,9 +19,11 @@ function Nav() {
         <li>Features</li>
         <li>Contact</li>
       </ul>
-      <button>
-        <a href="Login.html">Log In</a>
-      </button>
+      {/* <link to="/">
+        <button>Log In</button>
+      </link> */}
+
+      <button>Log In</button>
     </nav>
   );
 }

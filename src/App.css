@@ -256,3 +256,97 @@ ul {
   justify-content: center;
   margin: 12px;
 }
+
+/* Log In */
+
+.log {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  margin-bottom: 10px;
+  font-weight: 500;
+}
+
+.log-title {
+  text-align: center;
+  margin-bottom: 10px;
+  font-size: 40px;
+}
+
+input {
+  width: 300px;
+  padding: 15px;
+  margin-bottom: 50px;
+  border: 1px solid;
+  border-radius: 10px;
+}
+
+.box {
+  width: 500px;
+  height: 500px;
+  border-radius: 10px 10px 10px 10px;
+}
+
+.flex {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  justify-content: center;
+  height: 100vh;
+  align-items: center;
+  font-family: "Raleway", sans-serif;
+}
+
+form {
+  width: 500px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.btnn {
+  width: 300px;
+  padding: 13px;
+  border-radius: 10px;
+  border: none;
+  background-color: #2818d0;
+  color: white;
+}
+
+.btnn:hover {
+  width: 300px;
+  padding: 13px;
+  border-radius: 10px;
+  border: none;
+  background-color: #fa8314;
+  color: white;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.log-text {
+  margin-top: 30px;
+}
+
+.under {
+  color: blue;
+  text-decoration: underline;
+  cursor: pointer;
+}
+.under:hover {
+  font-weight: bold;
+}
+
+.back {
+  width: 470px;
+  height: 450px;
+}
+
+@media only screen and (max-width: 768px) {
+  .back {
+    display: none;
+  }
+}
