@@ -20,7 +20,7 @@ function Nav() {
         <li>Contact</li>
       </ul>
 
-      <Link style={{ textDecoration: "none", color: "white" }} to="/login">
+      <Link to="/login">
         <button>
           <p>Login</p>
         </button>

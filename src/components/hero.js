@@ -1,6 +1,6 @@
 import React from "react";
 import one from "../images/2nd no back.png";
-import proof from "../images/logosss.png";
+// import proof from "../images/logosss.png";
 
 function Hero() {
   return (

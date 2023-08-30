@@ -217,9 +217,6 @@ h3 {
 
 /*CTA*/
 .last-grid {
-  /* display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  gap: 100px; */
   display: flex;
   flex-wrap: wrap;
   gap: 5rem;
@@ -275,7 +272,7 @@ label {
   font-size: 40px;
 }
 
-input {
+.login-input {
   width: 300px;
   padding: 15px;
   margin-bottom: 50px;
@@ -283,7 +280,7 @@ input {
   border-radius: 10px;
 }
 
-.box {
+.login-box {
   width: 500px;
   height: 500px;
   border-radius: 10px 10px 10px 10px;
@@ -299,7 +296,7 @@ input {
   font-family: "Raleway", sans-serif;
 }
 
-form {
+.login-box {
   width: 500px;
   display: flex;
   flex-direction: column;
