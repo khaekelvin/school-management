@@ -4,6 +4,7 @@ import Main from "./components/Main";
 import Login from "./components/Login";
 import Landing from "./components/Landing";
 import Cards from "./components/Cards";
+import NewStudent from "./components/NewStudent";
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
         <Route path="/login" element={<Login />} />
         <Route path="/Landing" element={<Landing />} />
         <Route path="/Cards" element={<Cards />} />
+        <Route path="/NewStudent" element={<NewStudent />} />
       </Routes>
     </div>
   );

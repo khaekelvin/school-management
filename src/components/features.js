@@ -8,7 +8,7 @@ function Features() {
       <h1 className="feature-title">Why Us?</h1>
 
       <section className="grid-div">
-        <article>
+        <article className="fea-art">
           <h1 className="first-ti">Student Information Management</h1>
           <p className="fea">
             The Student Information Management feature of our school management
@@ -26,7 +26,7 @@ function Features() {
 
       <section className="grid-div">
         <img className="image-2 imgg" src={tableguy} alt=""></img>
-        <article>
+        <article className="fea-art">
           <h1 className="first-ti">Grade and Progress Tracking</h1>
           <p className="fea">
             The Grade and Progress Tracking feature in your school management
