@@ -599,7 +599,7 @@ span h1 {
 .cards {
   width: 300px;
   height: 520px;
-  background-color: var(--ash-text);
+  background-color: #dfedf1;
   border: none;
   border-radius: 20px;
 }
@@ -607,6 +607,13 @@ span h1 {
   padding: 0.6rem 6.2rem;
   border-radius: 5px;
   border: none;
+  background-color: white;
+}
+.profile-btn:hover {
+  padding: 0.6rem 6.2rem;
+  border-radius: 5px;
+  border: none;
+  background-color: rgb(199, 196, 196);
 }
 
 .stu-btn {
@@ -641,10 +648,27 @@ span h1 {
   align-items: center;
 }
 
+@media only screen and (max-width: 768px) {
+  .card-container {
+    /* display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 1.5rem; */
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+  li {
+    display: none;
+  }
+}
+
 /* new student*/
 .btns {
   display: flex;
   flex-direction: column;
+  align-items: center;
   width: 400px;
 }
 
@@ -657,6 +681,7 @@ span h1 {
 
 .btn-1 {
   padding: 0.7rem 1rem;
+  width: 20rem;
   margin-top: 1rem;
   border-radius: 5px;
   border: none;
@@ -666,6 +691,10 @@ span h1 {
 }
 .btn-1:hover {
   background-color: var(--button-blue-hover);
+}
+
+#btn-first {
+  width: 400px;
 }
 
 #home-link {
@@ -689,4 +718,39 @@ span h1 {
   justify-content: center;
   align-items: center;
   height: 100vh;
+}
+
+.pro-div {
+  display: flex;
+}
+
+.side-pro {
+  width: 30rem;
+  height: 20rem;
+  background-color: #7e7e7a;
+  border-radius: 10px;
+  padding: 1rem 1rem;
+  margin: 7rem 7rem;
+}
+
+.profile-cred h1 {
+  padding: 1rem 1rem;
+}
+
+hr {
+  width: 50rem;
+}
+
+/* About Us */
+.about-flex {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.what-is {
+  padding: 5rem 2rem;
+  color: var(--button-orange);
 }

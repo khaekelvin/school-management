@@ -53,7 +53,9 @@ function NewStudent() {
           </section>
 
           <section className="btns">
-            <button className="btn-1">Submit</button>
+            <button className="btn-1" id="btn-first">
+              Submit
+            </button>
             <button className="btn-1" id="home-link">
               <Link to="/">Home</Link>
             </button>
