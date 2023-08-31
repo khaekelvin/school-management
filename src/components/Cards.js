@@ -19,13 +19,14 @@ function Cards() {
           <li>
             <Link to="/">Home</Link>
           </li>
-          <li>About</li>
-          <li>
-            <Link to="/Cards">Students</Link>
-          </li>
           <li>
             <Link to="/Landing">Dashboard</Link>
           </li>
+
+          <li>
+            <Link to="/Cards">Students</Link>
+          </li>
+          <li>About</li>
         </ul>
 
         <Link to="/NewStudent">

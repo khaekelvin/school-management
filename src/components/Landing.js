@@ -2,6 +2,7 @@ import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   // faHouse,
+  // faPaperPlane,
   faGraduationCap,
   faChalkboardUser,
   faCheckToSlot,
@@ -15,7 +16,10 @@ function Landing() {
       <Nav />
       <body className="main-body">
         <section className="box-info">
-          <h2 className="school-logo">SchoolFlow</h2>
+          <h1 className="logo">
+            School
+            <span className="flow-blue">FLow</span>
+          </h1>
           <div className="box-flex">
             <div className="boxes">
               <div className="icon-box">
@@ -57,25 +61,25 @@ function Landing() {
           <h1 className="coarse-title">Coarses</h1>
           <section className="coarse-count">
             <span className="coarse-box">
-              <h3>English</h3>
+              <h3 className="header">English</h3>
               <p className="num">Number of Students</p>
               <h1>800</h1>
             </span>
 
             <span className="coarse-box">
-              <h3>Maths</h3>
+              <h3 className="header">Maths</h3>
               <p>Number of Students</p>
               <h1>200</h1>
             </span>
 
             <span className="coarse-box">
-              <h3>Science</h3>
+              <h3 className="header">Science</h3>
               <p>Number of Students</p>
               <h1>300</h1>
             </span>
 
             <span className="coarse-box">
-              <h3>History</h3>
+              <h3 className="header">History</h3>
               <p>Number of Students</p>
               <h1>307</h1>
             </span>

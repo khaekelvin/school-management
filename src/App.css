@@ -183,7 +183,7 @@ p {
 }
 
 .ora {
-  color: var(--button-orange);
+  color: var(--button-blue);
 }
 
 .flow {
@@ -194,6 +194,7 @@ h3 {
 }
 .what {
   padding: 10rem 6rem;
+  color: var(--button-orange);
 }
 
 .side-box {
@@ -494,7 +495,7 @@ ul {
   height: 9rem;
   margin: 0 30px;
   border-radius: 10px;
-  background-color: #fd8d14;
+  background-color: var(--button-orange-hover);
   border: none;
   display: flex;
 }
@@ -552,7 +553,7 @@ ul {
   margin-top: 10px;
 }
 
-h3 {
+.header {
   font-size: 2rem;
   margin: 10px;
   text-align: center;

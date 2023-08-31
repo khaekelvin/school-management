@@ -5,6 +5,7 @@ import Login from "./components/Login";
 import Landing from "./components/Landing";
 import Cards from "./components/Cards";
 import NewStudent from "./components/NewStudent";
+import Profile from "./components/Profile";
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
         <Route path="/Landing" element={<Landing />} />
         <Route path="/Cards" element={<Cards />} />
         <Route path="/NewStudent" element={<NewStudent />} />
+        <Route path="/Profile" element={<Profile />} />
       </Routes>
     </div>
   );
