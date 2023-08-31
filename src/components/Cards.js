@@ -46,6 +46,9 @@ function Cards() {
             <h1>Gender:</h1>
             <h1>Date of Birth:</h1>
             <h1>Coarse:</h1>
+            <Link to="/Profile">
+              <button className="profile-btn">Profile</button>
+            </Link>
           </article>
         </section>
 
@@ -59,6 +62,9 @@ function Cards() {
             <h1>Gender:</h1>
             <h1>Date of Birth:</h1>
             <h1>Coarse:</h1>
+            <Link to="/Profile">
+              <button className="profile-btn">Profile</button>
+            </Link>
           </article>
         </section>
 
@@ -72,6 +78,9 @@ function Cards() {
             <h1>Gender:</h1>
             <h1>Date of Birth:</h1>
             <h1>Coarse:</h1>
+            <Link to="/Profile">
+              <button className="profile-btn">Profile</button>
+            </Link>
           </article>
         </section>
 
@@ -85,6 +94,9 @@ function Cards() {
             <h1>Gender:</h1>
             <h1>Date of Birth:</h1>
             <h1>Coarse:</h1>
+            <Link to="/Profile">
+              <button className="profile-btn">Profile</button>
+            </Link>
           </article>
         </section>
 
@@ -98,6 +110,9 @@ function Cards() {
             <h1>Gender:</h1>
             <h1>Date of Birth:</h1>
             <h1>Coarse:</h1>
+            <Link to="/Profile">
+              <button className="profile-btn">Profile</button>
+            </Link>
           </article>
         </section>
 
@@ -111,6 +126,9 @@ function Cards() {
             <h1>Gender:</h1>
             <h1>Date of Birth:</h1>
             <h1>Coarse:</h1>
+            <Link to="/Profile">
+              <button className="profile-btn">Profile</button>
+            </Link>
           </article>
         </section>
       </div>

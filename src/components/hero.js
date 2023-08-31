@@ -4,7 +4,7 @@ import one from "../images/2nd no back.png";
 
 function Hero() {
   return (
-    <body>
+    <body className="hero-body">
       <main className="hero-flex">
         <div>
           <h1 className="hero-title">

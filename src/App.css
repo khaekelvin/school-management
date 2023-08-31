@@ -14,6 +14,14 @@
   --ash-text: #7e7e7a;
 }
 
+body {
+  font-family: sans-serif;
+  max-width: 1440px;
+  padding: 2rem 1rem;
+  margin: 0 auto;
+  font-size: 1.1rem;
+}
+
 .flow-blue {
   color: var(--button-blue);
 }
@@ -62,10 +70,11 @@ li:hover {
 
 button:hover {
   background-color: var(--button-orange-hover);
+  cursor: pointer;
 }
 
 /* hero */
-body {
+.hero-body {
   max-width: 1440px;
   padding: 2rem 1rem;
   margin: 0 auto;
@@ -107,18 +116,7 @@ body {
   line-height: 30px;
 }
 
-/* .social-proof {
-  width: 1376px;
-  height: 127px;
-  opacity: 70%;
-  display: none;
-} */
-
-/* features */
-
 .grid-div {
-  /* display: grid;
-  grid-template-columns: repeat(2, 1fr); */
   display: flex;
   flex-wrap: wrap;
 }
@@ -180,8 +178,6 @@ p {
 /* About */
 
 .about-grid {
-  /* display: grid;
-  grid-template-columns: repeat(2, 1fr); */
   display: flex;
   flex-wrap: wrap;
 }
@@ -283,6 +279,15 @@ ul {
   flex-direction: column;
 }
 
+.to-home {
+  width: 200px;
+  padding: 13px;
+  border-radius: 10px;
+  border: none;
+  background-color: var(--button-orange);
+  color: white;
+}
+
 label {
   font-weight: 500;
 }
@@ -330,7 +335,7 @@ label {
   padding: 13px;
   border-radius: 10px;
   border: none;
-  background-color: #2818d0;
+  background-color: var(--button-blue);
   color: white;
 }
 
@@ -339,7 +344,7 @@ label {
   padding: 13px;
   border-radius: 10px;
   border: none;
-  background-color: #fa8314;
+  background-color: var(--button-blue-hover);
   color: white;
   cursor: pointer;
   font-weight: bold;
@@ -592,10 +597,15 @@ span h1 {
 /* Cards */
 .cards {
   width: 300px;
-  height: 480px;
+  height: 520px;
   background-color: var(--ash-text);
   border: none;
   border-radius: 20px;
+}
+.profile-btn {
+  padding: 0.6rem 6.2rem;
+  border-radius: 5px;
+  border: none;
 }
 
 .stu-btn {
@@ -634,7 +644,6 @@ span h1 {
 .btns {
   display: flex;
   flex-direction: column;
-
   width: 400px;
 }
 
@@ -649,7 +658,7 @@ span h1 {
   padding: 0.7rem 1rem;
   margin-top: 1rem;
   border-radius: 5px;
-  border: 1px solid;
+  border: none;
   color: #f5f5f5;
   font-weight: bold;
   background-color: var(--button-blue);

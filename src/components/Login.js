@@ -30,7 +30,7 @@ function Login() {
 
           <p className="log-text">
             <span className="under">
-              <button>
+              <button className="to-home">
                 <Link to="/">Home</Link>
               </button>
             </span>
