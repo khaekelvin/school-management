@@ -5,7 +5,7 @@ import one from "../images/2nd no back.png";
 function Hero() {
   return (
     <body>
-      <main>
+      <main className="hero-flex">
         <div>
           <h1 className="hero-title">
             Simplify <br /> <span className="or">Organize.</span>Strive

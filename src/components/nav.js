@@ -16,8 +16,12 @@ function Nav() {
       <ul>
         <li>Home</li>
         <li>About</li>
-        <li>Features</li>
-        <li>Contact</li>
+        <li>
+          <Link to="/Cards">School</Link>
+        </li>
+        <li>
+          <Link to="/Landing">Dashboard</Link>
+        </li>
       </ul>
 
       <Link to="/login">
