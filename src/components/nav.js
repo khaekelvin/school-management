@@ -18,12 +18,12 @@ function Nav() {
           <Link to="/">Home</Link>
         </li>
         <li>
+          <Link to="/FeaturesPage">Features</Link>
+        </li>
+        <li>
           <Link to="/Landing">Dashboard</Link>
         </li>
 
-        <li>
-          <Link to="/Cards">Students</Link>
-        </li>
         <li>
           <Link to="/AboutUs">About</Link>
         </li>

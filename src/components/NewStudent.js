@@ -57,7 +57,7 @@ function NewStudent() {
               Submit
             </button>
             <button className="btn-1" id="home-link">
-              <Link to="/">Home</Link>
+              <Link to="/Landing">Dashboard</Link>
             </button>
           </section>
         </div>

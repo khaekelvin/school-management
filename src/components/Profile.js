@@ -26,16 +26,7 @@ function Profile() {
           <li>
             <Link to="/Cards">Students</Link>
           </li>
-          <li>
-            <Link to="/AboutUs">About</Link>
-          </li>
         </ul>
-
-        <Link to="/NewStudent">
-          <button className="stu-btn">
-            <p>Add Student</p>
-          </button>
-        </Link>
       </nav>
       <div className="pro-div">
         <img className="" src={pro} alt=""></img>

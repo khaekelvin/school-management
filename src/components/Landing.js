@@ -8,17 +8,39 @@ import {
   faCheckToSlot,
   // faBars,
 } from "@fortawesome/free-solid-svg-icons";
-import Nav from "./nav";
+import { Link } from "react-router-dom";
+import { faPaperPlane } from "@fortawesome/free-solid-svg-icons";
 
 function Landing() {
   return (
     <main>
-      <Nav />
+      <nav>
+        <h1 className="logo">
+          School
+          <span className="flow-blue">
+            FLow
+            <FontAwesomeIcon className="plane" icon={faPaperPlane} />
+          </span>
+        </h1>
+        <ul>
+          <li>
+            <Link to="/">Home</Link>
+          </li>
+
+          <li>
+            <Link to="/Landing">Dashboard</Link>
+          </li>
+
+          <li>
+            <Link to="/Cards">Students</Link>
+          </li>
+        </ul>
+      </nav>
       <body className="main-body">
         <section className="box-info">
           <h1 className="logo">
-            School
-            <span className="flow-blue">FLow</span>
+            Dash
+            <span className="flow-blue">board</span>
           </h1>
           <div className="box-flex">
             <div className="boxes">
