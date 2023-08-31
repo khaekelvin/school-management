@@ -8,26 +8,12 @@ function Cards() {
   return (
     <div>
       <nav>
-        <h1 className="logo">
-          School
-          <span className="flow-blue">
-            FLow
-            <FontAwesomeIcon className="plane" icon={faPaperPlane} />
-          </span>
-        </h1>
         <ul>
           <li>
             <Link to="/">Home</Link>
           </li>
           <li>
             <Link to="/Landing">Dashboard</Link>
-          </li>
-
-          <li>
-            <Link to="/Cards">Students</Link>
-          </li>
-          <li>
-            <Link to="/AboutUs">About</Link>
           </li>
         </ul>
 

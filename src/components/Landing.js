@@ -28,10 +28,6 @@ function Landing() {
           </li>
 
           <li>
-            <Link to="/Landing">Dashboard</Link>
-          </li>
-
-          <li>
             <Link to="/Cards">Students</Link>
           </li>
         </ul>
