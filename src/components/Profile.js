@@ -33,15 +33,25 @@ function Profile() {
 
         <section className="side-pro">
           <article className="pro-all">
-            <h1 className="pro-line">Name:</h1>
+            <h1 className="pro-line">
+              Name: <span className="pro-p">Kelvin Duobu </span>
+            </h1>
             <hr />
-            <h1 className="pro-line">Age:</h1>
+            <h1 className="pro-line">
+              Age: <span className="pro-p">20</span>
+            </h1>
             <hr />
-            <h1 className="pro-line">Gender:</h1>
+            <h1 className="pro-line">
+              Gender: <span className="pro-p">Male</span>
+            </h1>
             <hr />
-            <h1 className="pro-line">Date of Birth:</h1>
+            <h1 className="pro-line">
+              Date of Birth: <span className="pro-p">18/03/2003</span>
+            </h1>
             <hr />
-            <h1 className="pro-line">Coarse:</h1>
+            <h1 className="pro-line">
+              Course: <span className="pro-p">Science</span>
+            </h1>
             <hr />
           </article>
         </section>

@@ -1,6 +1,5 @@
 import React from "react";
 import one from "../images/2nd no back.png";
-// import proof from "../images/logosss.png";
 
 function Hero() {
   return (
@@ -20,7 +19,6 @@ function Hero() {
         </div>
         <img className="image-1" src={one} alt=""></img>
       </main>
-      {/* <img className="social-proof" src={proof} alt=""></img> */}
     </body>
   );
 }

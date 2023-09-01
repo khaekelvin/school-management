@@ -302,7 +302,7 @@ label {
 .login-input {
   width: 300px;
   padding: 15px;
-  margin-bottom: 50px;
+  margin-bottom: 30px;
   border: 1px solid;
   border-radius: 10px;
 }
@@ -352,7 +352,7 @@ label {
 }
 
 .log-text {
-  margin-top: 30px;
+  margin-top: 20px;
   font-size: 17px;
 }
 
@@ -454,6 +454,10 @@ label {
   align-items: center;
 }
 
+#bottom {
+  margin-bottom: 1rem;
+}
+
 .nav-links {
   display: flex;
   justify-content: space-between;
@@ -514,6 +518,7 @@ ul {
   font-size: 1.3rem;
   font-weight: bold;
   padding-top: 30px;
+  color: white;
 }
 
 .home-icon {
@@ -523,7 +528,7 @@ ul {
 
 .analytics {
   width: 950px;
-  height: 330px;
+  height: 300px;
   background-color: #fd8d14;
   border: none;
   border-radius: 20px;
@@ -536,7 +541,7 @@ ul {
 
 .coarse-count {
   display: flex;
-  padding: 3rem 5rem;
+  padding: 20px 5rem;
 }
 
 .coarse-box {
@@ -550,11 +555,21 @@ ul {
 .coarse-title {
   display: flex;
   justify-content: center;
+  margin-top: 20px;
+  color: white;
+}
+
+.coarse-box p {
+  margin-top: 20px;
+}
+
+.subject {
+  font-size: 1.8rem;
   margin-top: 10px;
 }
 
 .header {
-  font-size: 2rem;
+  font-size: 1.6rem;
   margin: 10px;
   text-align: center;
 }
@@ -607,13 +622,17 @@ span h1 {
   padding: 0.6rem 6.2rem;
   border-radius: 5px;
   border: none;
-  background-color: white;
+  color: white;
+  background-color: var(--button-blue);
 }
 .profile-btn:hover {
   padding: 0.6rem 6.2rem;
   border-radius: 5px;
   border: none;
-  background-color: rgb(199, 196, 196);
+  background-color: #5819d1;
+}
+.pro-p {
+  font-size: 1.2rem;
 }
 
 .stu-btn {
@@ -650,9 +669,6 @@ span h1 {
 
 @media only screen and (max-width: 768px) {
   .card-container {
-    /* display: grid;
-    grid-template-columns: repeat(1, 1fr);
-    gap: 1.5rem; */
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
@@ -670,6 +686,11 @@ span h1 {
   flex-direction: column;
   align-items: center;
   width: 400px;
+}
+
+.new-student-head {
+  font-size: 1.2rem;
+  margin-bottom: 5px;
 }
 
 .credentials {

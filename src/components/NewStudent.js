@@ -8,7 +8,7 @@ function NewStudent() {
       <div className="flex-both">
         <div className="flex-form">
           <section className="form-det">
-            <h2>Name</h2>
+            <h2 className="new-student-head">Name</h2>
             <input
               className="credentials"
               type="text"
@@ -17,7 +17,7 @@ function NewStudent() {
           </section>
 
           <section className="form-det">
-            <h2>Age</h2>
+            <h2 className="new-student-head">Age</h2>
             <input
               className="credentials"
               type="text"
@@ -26,7 +26,7 @@ function NewStudent() {
           </section>
 
           <section className="form-det">
-            <h2>Gender</h2>
+            <h2 className="new-student-head">Gender</h2>
             <input
               className="credentials"
               type="text"
@@ -35,7 +35,7 @@ function NewStudent() {
           </section>
 
           <section className="form-det">
-            <h2>Date of birth</h2>
+            <h2 className="new-student-head">Date of birth</h2>
             <input
               className="credentials"
               type="text"
@@ -44,11 +44,11 @@ function NewStudent() {
           </section>
 
           <section className="form-det">
-            <h2>Coarse</h2>
+            <h2 className="new-student-head">Course</h2>
             <input
               className="credentials"
               type="text"
-              placeholder="Enter your coarse"
+              placeholder="Enter your course"
             ></input>
           </section>
 

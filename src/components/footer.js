@@ -11,7 +11,6 @@ function Footer() {
           <li>Home</li>
           <li>About</li>
           <li>Features</li>
-          <li>Contact</li>
         </ul>
         <p>© SchoolFlow Copyright 2023</p>
       </div>

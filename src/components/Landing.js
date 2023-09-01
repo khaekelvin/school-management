@@ -34,7 +34,7 @@ function Landing() {
       </nav>
       <body className="main-body">
         <section className="box-info">
-          <h1 className="logo">
+          <h1 className="logo" id="bottom">
             Dash
             <span className="flow-blue">board</span>
           </h1>
@@ -76,30 +76,30 @@ function Landing() {
         </section>
 
         <div className="analytics">
-          <h1 className="coarse-title">Coarses</h1>
+          <h1 className="coarse-title">Courses</h1>
           <section className="coarse-count">
             <span className="coarse-box">
               <h3 className="header">English</h3>
               <p className="num">Number of Students</p>
-              <h1>800</h1>
+              <h1 className="subject">800</h1>
             </span>
 
             <span className="coarse-box">
               <h3 className="header">Maths</h3>
               <p>Number of Students</p>
-              <h1>200</h1>
+              <h1 className="subject">200</h1>
             </span>
 
             <span className="coarse-box">
               <h3 className="header">Science</h3>
               <p>Number of Students</p>
-              <h1>300</h1>
+              <h1 className="subject">300</h1>
             </span>
 
             <span className="coarse-box">
               <h3 className="header">History</h3>
               <p>Number of Students</p>
-              <h1>307</h1>
+              <h1 className="subject">307</h1>
             </span>
           </section>
         </div>
