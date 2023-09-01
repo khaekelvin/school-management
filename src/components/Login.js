@@ -23,7 +23,9 @@ function Login() {
               placeholder="Enter your password"
             ></input>
           </section>
-          <button className="btnn">Log In</button>
+          <button className="btnn">
+            <Link to="/Landing">Log In</Link>
+          </button>
           <p className="log-text">
             Forgot Password? <span className="under">Click here</span>
           </p>

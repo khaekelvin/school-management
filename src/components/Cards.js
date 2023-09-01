@@ -16,7 +16,13 @@ function Cards() {
             <Link to="/Landing">Dashboard</Link>
           </li>
         </ul>
-
+        <h1 className="logo">
+          School
+          <span className="flow-blue">
+            FLow
+            <FontAwesomeIcon className="plane" icon={faPaperPlane} />
+          </span>
+        </h1>
         <Link to="/NewStudent">
           <button className="stu-btn">
             <p>Add Student</p>

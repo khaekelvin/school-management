@@ -20,9 +20,6 @@ function Nav() {
         <li>
           <Link to="/FeaturesPage">Features</Link>
         </li>
-        <li>
-          <Link to="/Landing">Dashboard</Link>
-        </li>
 
         <li>
           <Link to="/AboutUs">About</Link>
